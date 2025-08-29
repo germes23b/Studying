@@ -17,7 +17,7 @@ namespace L11Work
             this.b = b;
         }
 
-        public string PryamRes()
+        public string Root()
         {
             if (k == 0)
                 return "Решений нет";

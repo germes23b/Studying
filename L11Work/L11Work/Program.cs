@@ -14,7 +14,7 @@ namespace L11Work
             double b = Convert.ToDouble(Console.ReadLine());
             
             Pryamaya pryamaya = new Pryamaya(k,b);
-            Console.WriteLine(pryamaya.PryamRes());
+            Console.WriteLine(pryamaya.Root());
             Console.ReadKey();
         }
     }
